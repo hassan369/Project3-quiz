@@ -1,2 +1,2 @@
 # Project3-quiz
-[Project 3 14/11](https://miro.com/welcomeonboard/cTRYWUNIZDRlVGRRcEwxOFlUblFuYlRsNzVKNzVLVngzVmhwMlFZa0pPb1FTd0RwdHM5cHJCYzZ5S0lhcWV4bHwzMDc0NDU3MzYzMDY0NTI3Mjg5fDI=?share_link_id=83027663383)
+[Mockup and Wireframe for the project](https://miro.com/welcomeonboard/cTRYWUNIZDRlVGRRcEwxOFlUblFuYlRsNzVKNzVLVngzVmhwMlFZa0pPb1FTd0RwdHM5cHJCYzZ5S0lhcWV4bHwzMDc0NDU3MzYzMDY0NTI3Mjg5fDI=?share_link_id=83027663383)

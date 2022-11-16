@@ -26,9 +26,10 @@ function signin() {
 
   if (isExist()) {
     sessionStorage.setItem('currentUser', JSON.stringify(currentUser));
-    document.getElementById('result').innerHTML = 'loged in ';
+    //document.getElementById('result').innerHTML = 'loged in ';
   } else {
-    document.getElementById('result').innerHTML = 'not exist user ';
+    //document.getElementById('result').innerHTML = 'not exist user ';
+    return;
   }
   window.location.href = './welcome.html';
 }

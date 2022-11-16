@@ -57,7 +57,7 @@ function signnup() {
   } else {
     msgf.style.display = 'inline';
   }
-
+////////errors conditions
   if (
     msgf.style.display == 'inline' ||
     msgem.style.display == 'inline' ||
@@ -66,7 +66,7 @@ function signnup() {
     return;
   }
 
-  console.log('not working');
+  //console.log('not working');
 
   // event.preventDefault();
 
@@ -82,14 +82,16 @@ function signnup() {
     password: password,
   };
 
+
+
   if (localStorage.getItem('users')) {
-    let users = JSON.parse(localStorage.getItem('users'));
-    console.log(users[0].username);
+    let users = JSON.parse(localStorage.getItem('users'));  //json.parse to convert json to obj
+    //console.log(users[0].username);
     if (users.length == 0) {
       users.push(currentUser);
-      console.log(users[0].username);
+      //console.log(users[0].username);
     } else {
-      console.log(users[0].username); //nsreen
+      //console.log(users[0].username); //nsreen
 
       function isExist() {
         for (let i = 0; i < users.length; i++) {
@@ -103,9 +105,9 @@ function signnup() {
 
       if (isExist()) {
         // console.log(users[i].username)
-        console.log(currentUser.username);
-
-        document.getElementById('result').innerHTML = 'email already registerd';
+        //console.log(currentUser.username);
+        console.log("email already registerd")
+        //document.getElementById('result').innerHTML = 'email already registerd';
       } else {
         users.push(currentUser);
         localStorage.setItem('users', JSON.stringify(users));
@@ -114,7 +116,7 @@ function signnup() {
   } else {
     let users = [];
     users.push(currentUser);
-    localStorage.setItem('users', JSON.stringify(users));
+    localStorage.setItem('users', JSON.stringify(users));//JSON.parse()
   }
 
   var json = JSON.stringify(currentUser);

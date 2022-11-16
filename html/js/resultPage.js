@@ -1,7 +1,7 @@
 const quizArray = [
   {
     question:
-      'What is the next number in the series (7, 10, 16, 28, 52, ___ )?',
+      'What is the next number in the series (7, 10, 16, 28, 52, _ )?',
     a: '33',
     b: '100',
     c: '66',
@@ -38,7 +38,7 @@ const quizArray = [
   },
 
   {
-    question: 'Afraid is to scared as brave is to ____?',
+    question: 'Afraid is to scared as brave is to __?',
     a: 'courageous',
     b: 'cowardly',
     c: 'timid',
@@ -66,7 +66,7 @@ const quizArray = [
     correct: 'd',
   },
   {
-    question: 'The words allude and elude have ______ meanings ?',
+    question: 'The words allude and elude have __ meanings ?',
     a: 'same',
     b: 'opposite',
     c: 'unrelated',
@@ -74,11 +74,11 @@ const quizArray = [
     correct: 'c',
   },
   {
-    question: 'completes the analogy:(Book is to Reading as Fork is to:)?',
-    a: '35%',
-    b: '50%',
-    c: '60%',
-    d: '40%',
+    question: 'What number best completes the analogy: (8:4 as 10:)?',
+    a: '3',
+    b: '7',
+    c: '25',
+    d: '5',
     correct: 'd',
   },
   //hard
@@ -110,7 +110,7 @@ const quizArray = [
     correct: 'd',
   },
   {
-    question: 'Apathetic is to sympathetic as ____________ is to concerned?',
+    question: 'Apathetic is to sympathetic as ____ is to concerned?',
     a: 'Callous',
     b: 'compassionate',
     c: 'merciful',
@@ -136,7 +136,7 @@ const quizArray = [
     correct: 'c',
   },
   {
-    question: 'The words gallant and valiant have ________ meanings.',
+    question: 'The words gallant and valiant have ____ meanings.',
     a: 'none',
     b: 'Same',
     c: 'Opposite',
@@ -161,10 +161,18 @@ const quizArray = [
     correct: 'd',
   },
   {
-    question: 'Accept and except have _________ meanings ',
+    question: 'Accept and except have ___ meanings ',
     a: 'Similar',
     b: 'Different',
     c: 'Unrelated',
+    d: 'none',
+    correct: 'c',
+  },
+  {
+    question: 'The mirror image of a clock at 2:45 p.m. will show the following time: ',
+    a: '9:15 p.m',
+    b: '9:15 a.m',
+    c: '11:15 ',
     d: 'none',
     correct: 'c',
   },
@@ -264,3 +272,6 @@ function openbutton() {
 // function loadAnswers() {
 
 // }
+document.getElementById('logOout').onclick = function(){
+  window.location.href = './login.html';
+}
